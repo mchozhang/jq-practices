@@ -1,0 +1,1529 @@
+{
+	"Functions": [
+		{
+			"CodeSha256": "CWpNT8YXlB2yUcVmxYddIYsSyKnttNazuv84AiXY4xU=",
+			"CodeSize": 1258,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-custom-config-rules-cmdb-ta-CMDBTaggingLambda-46NSUBBJYNAV",
+			"FunctionName": "cops-custom-config-rules-cmdb-ta-CMDBTaggingLambda-46NSUBBJYNAV",
+			"Handler": "cmdb-tagging-rule.lambda_handler",
+			"LastModified": "2019-09-27T07:26:38.383+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "2acbd845-6d5b-4840-9121-2f2ff0052569",
+			"Role": "arn:aws:iam::144028967590:role/cmdb-tagging-rule-role",
+			"Runtime": "python3.7",
+			"Timeout": 900,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "MOz7HGLisFSUcsygWxrMaPqtL01jYt2ooOgfhRgmVRs=",
+			"CodeSize": 489183,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-bb4hgc7skqa3q-sourcebucket-nf7gwbj3gno1"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-bb4hgc7skqa3q-ActionsPr-Presign-1HDYI17O9JQ3J",
+			"FunctionName": "SC-144028967590-pp-bb4hgc7skqa3q-ActionsPr-Presign-1HDYI17O9JQ3J",
+			"Handler": "index.handler",
+			"LastModified": "2020-08-25T02:10:04.911+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "a4a225ca-3bbc-4f24-b2ff-871fa1e5a74b",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-bb4hgc7skqa3q-Actio-PresignRole-877UC1RIXHVH",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "o2ujxjKIh1wBNef9ABgF4s5xdlL6MIc2eg5KEk5UPUs=",
+			"CodeSize": 867,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-config-rules-CloudtrailLfiActivatedLambdaFunc-1B0L3X8URZFEL",
+			"FunctionName": "cops-config-rules-CloudtrailLfiActivatedLambdaFunc-1B0L3X8URZFEL",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-27T02:35:29.866+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "dff2073c-abd1-4021-bc07-6ba51894d186",
+			"Role": "arn:aws:iam::144028967590:role/cops-config-rules-LambdaExecutionRole-E52OI3B7QLH6",
+			"Runtime": "python3.8",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "PvY6U+7HDyBNqthgz3y2p8+SwfCHTbXCTCRxPMrbpZI=",
+			"CodeSize": 101513,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "WEL-Mulesoft/iAuditorPublisher"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-ch3bws-ActionsRequestAuthorizer-15H58N7331M99",
+			"FunctionName": "SC-144028967590-pp-ch3bws-ActionsRequestAuthorizer-15H58N7331M99",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T05:44:00.103+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "f8d98ba0-960c-4e8f-b528-20c7ed62f0e6",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-ch3bws-ActionsRequestAuthorizer-1J84WSNNAF0CZ",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "beCQw74qobEG+cF8J+CJiomsPST7h87WYZ8hjiggTWo=",
+			"CodeSize": 978,
+			"Description": "Evaluates whether Config is enabled in all regions",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateConfigInAllRegions",
+			"FunctionName": "EvaluateConfigInAllRegions",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.524+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "0d99c04f-d329-484a-9b60-e2054a5771cd",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 120,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "J0l0CWobnhmjGknVNlL4363cFGpIYHDY+CJ/LHwbkLs=",
+			"CodeSize": 730,
+			"Description": "Evaluates whether VPC peered route tables are least access",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateVpcPeeringRouteTables",
+			"FunctionName": "EvaluateVpcPeeringRouteTables",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.360+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "bd089cdf-42a0-43fa-994c-f53cf4b76b29",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "gwJZkp06E+ovmmpHhoIzurnsJFtsTbf2rtcepWal8EQ=",
+			"CodeSize": 36432,
+			"Description": "Tag Enforcement auto Ec2 naming Lambda function for run instance(s) events",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-tag-enforcement-auto-ec2-naming-autoTrack",
+			"FunctionName": "cops-tag-enforcement-auto-ec2-naming-autoTrack",
+			"Handler": "handler.runInstancesAutoEc2NameTrackingHandler",
+			"LastModified": "2021-06-09T03:27:25.488+0000",
+			"MemorySize": 256,
+			"PackageType": "Zip",
+			"RevisionId": "a7db611f-62f7-4747-a62b-6b1f9a79f8ea",
+			"Role": "arn:aws:iam::144028967590:role/AutoEc2Naming",
+			"Runtime": "python3.7",
+			"Timeout": 240,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "zvP60FDpmNJE94nHq8mRbI0IrLcFibvZNJelM0XeNGw=",
+			"CodeSize": 1176,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-config-rules-CloudtrailEncryptedLambdaFunctio-8DQFAA5773UO",
+			"FunctionName": "cops-config-rules-CloudtrailEncryptedLambdaFunctio-8DQFAA5773UO",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-27T02:35:29.415+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "ad12ca29-ddba-457a-b29b-76d2e33078d4",
+			"Role": "arn:aws:iam::144028967590:role/cops-config-rules-LambdaExecutionRole-E52OI3B7QLH6",
+			"Runtime": "python3.8",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "yUWWT3Wf6AszSKAj/t3R/F4G63xXlwMYConX209QSRs=",
+			"CodeSize": 18532444,
+			"Description": "Build CloudWatch dashboard from CloudWatch metrics",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-PipelineDashboardGenerat-1WEZHSV6KT0R5",
+			"FunctionName": "StackSet-cnf-baseline-wpl-PipelineDashboardGenerat-1WEZHSV6KT0R5",
+			"Handler": "index.generateDashboard",
+			"LastModified": "2021-02-03T03:21:58.714+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "df4036c5-c3ac-4ac8-8fe9-f0b3f0ff8256",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-PipelineDashboardGenerat-ZJYX5TEZ9XUN",
+			"Runtime": "nodejs12.x",
+			"Timeout": 60,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "BN4e5Hkyll5NpNy2uhhyk7cRuOYkSqL3Tz3P6h8Bb1k=",
+			"CodeSize": 150569,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-qhuof3ec44s2a-Acti-ActionsProxy-hQfsN6oMHVlV",
+			"FunctionName": "SC-144028967590-pp-qhuof3ec44s2a-Acti-ActionsProxy-hQfsN6oMHVlV",
+			"Handler": "index.handler",
+			"LastModified": "2021-06-22T02:17:31.877+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "3924d116-ddc1-4433-931f-a3e0a70bc68a",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-qhuof3ec44s2a-ActionsProxyRole-37K8WT8GQ802",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "dMTqDfWObte1RW9IcOLMnd25yDLRBw7JSveiBQnaIso=",
+			"CodeSize": 719,
+			"Description": "Evaluates whether users have policies associated with them. Users should inherit permissions from groups instead.",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateUserPolicyAssociations",
+			"FunctionName": "EvaluateUserPolicyAssociations",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.906+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "c7b952e2-c1fc-479b-a4ec-5bb4df088978",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "SoaUfzZ63GmLwKiwl8MWZfmN4vSDvF9KhvlJi3eDwx0=",
+			"CodeSize": 101513,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "Woodside/mygtapp"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-qhuof3-ActionsRequestAuthorizer-Xy2GlJnHSCIb",
+			"FunctionName": "SC-144028967590-pp-qhuof3-ActionsRequestAuthorizer-Xy2GlJnHSCIb",
+			"Handler": "index.handler",
+			"LastModified": "2021-06-22T02:17:32.931+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "a0e21f56-bd22-4784-9faf-08badff3dd67",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-qhuof3-ActionsRequestAuthorizer-1DG0XLZXFJHUY",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "J28waR8OzdrLyms6iB7ioZ4q7bcbpIXE8fRRgG5bakI=",
+			"CodeSize": 13054,
+			"Description": "Create CloudWatch mttr metric from cloudwatch alarm events",
+			"Environment": {
+				"Variables": {
+					"ALARM_NAME_BLACKLIST_PATTERN": "(-AlarmHigh|-AlarmLow|-ProvisionedCapacityHigh|-ProvisionedCapacityLow)-(\\{){0,1}[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}(\\}){0,1}"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wrk-int-MTTREventHandler-5D2PQW06SLBI",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wrk-int-MTTREventHandler-5D2PQW06SLBI",
+			"Handler": "mttr.handler",
+			"LastModified": "2021-02-03T03:22:19.391+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "09ccd54c-2a77-4c50-956a-c8fc43696b14",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-wrk-MTTREventHandlerRole-1IC839JQ5ERM2",
+			"Runtime": "nodejs12.x",
+			"Timeout": 3,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "R6rQCHfCmttmbx101lXR+yyrO45pDHTplFmF0M5m/bI=",
+			"CodeSize": 481379,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-ofc3fcaqadm2e-sourcebucket-1d9mwml1o43ij"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-ofc3fcaqadm2e-ActionsPr-Presign-OVFMSWPPYTNP",
+			"FunctionName": "SC-144028967590-pp-ofc3fcaqadm2e-ActionsPr-Presign-OVFMSWPPYTNP",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T06:51:35.832+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "f6e08c3d-0223-434b-aaab-f5af79406c66",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-ofc3fcaqadm2e-Actio-PresignRole-PZJ8QGC2653I",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "yF86OY/2lHC/fwx7QEbwP2sceYHGwxZhv74sTyW+qws=",
+			"CodeSize": 150570,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-ofc3fcaqadm2e-Acti-ActionsProxy-1CAPZSA0Q3X1P",
+			"FunctionName": "SC-144028967590-pp-ofc3fcaqadm2e-Acti-ActionsProxy-1CAPZSA0Q3X1P",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T06:51:35.935+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "d44af8af-746d-4107-9e4e-4d417264bf49",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-ofc3fcaqadm2e-ActionsProxyRole-1SO8TFMO7O8HP",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "BN4e5Hkyll5NpNy2uhhyk7cRuOYkSqL3Tz3P6h8Bb1k=",
+			"CodeSize": 150569,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-uun5iqiz37iyq-Acti-ActionsProxy-tUq9cwaU69Hi",
+			"FunctionName": "SC-144028967590-pp-uun5iqiz37iyq-Acti-ActionsProxy-tUq9cwaU69Hi",
+			"Handler": "index.handler",
+			"LastModified": "2021-06-28T06:10:20.184+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "8c9bb1cb-f8d7-4d63-8132-c281d83b1c63",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-uun5iqiz37iyq-ActionsProxyRole-16MMEHIEDG1AL",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "gwJZkp06E+ovmmpHhoIzurnsJFtsTbf2rtcepWal8EQ=",
+			"CodeSize": 36432,
+			"Description": "Tag Enforcement auto Ec2 naming Lambda function for terminate instance(s) events",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-tag-enforcement-auto-ec2-naming-terminateInstances",
+			"FunctionName": "cops-tag-enforcement-auto-ec2-naming-terminateInstances",
+			"Handler": "handler.terminateInstancesHandler",
+			"LastModified": "2021-06-09T03:27:25.635+0000",
+			"MemorySize": 256,
+			"PackageType": "Zip",
+			"RevisionId": "95a98a1e-f58d-4a32-833c-1b81643a53ca",
+			"Role": "arn:aws:iam::144028967590:role/AutoEc2Naming",
+			"Runtime": "python3.7",
+			"Timeout": 240,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "SoaUfzZ63GmLwKiwl8MWZfmN4vSDvF9KhvlJi3eDwx0=",
+			"CodeSize": 101513,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "WEL-Mulesoft/CDS-SSUD-Proxy"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-uun5iq-ActionsRequestAuthorizer-YIZ2pX52Zqrb",
+			"FunctionName": "SC-144028967590-pp-uun5iq-ActionsRequestAuthorizer-YIZ2pX52Zqrb",
+			"Handler": "index.handler",
+			"LastModified": "2021-06-28T06:10:20.642+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "56302ee3-e729-42ed-b9cd-defc0e727b29",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-uun5iq-ActionsRequestAuthorizer-1AM2DW891ARK2",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "HtqHDfwLeF+IOkZbC25RKeHkKEFeQOkonmdeogJwQKQ=",
+			"CodeSize": 481379,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-uun5iqiz37iyq-sourcebucket-wrv4dewcqvfo"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-uun5iqiz37iyq-ActionsPr-Presign-PSF9OLo14Qb5",
+			"FunctionName": "SC-144028967590-pp-uun5iqiz37iyq-ActionsPr-Presign-PSF9OLo14Qb5",
+			"Handler": "index.handler",
+			"LastModified": "2021-06-28T06:10:19.784+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "20d73329-d2a9-46d6-87f6-bae5dcbf0d63",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-uun5iqiz37iyq-Actio-PresignRole-1J5HUQ3U73QEG",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "gzgzOyV0likzGmBghjW/yS8J3NCbnTcKIGn0a/m9PiE=",
+			"CodeSize": 101513,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "WEL-Mulesoft/APICommonLib4"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-issp6b-ActionsRequestAuthorizer-RSN6MJ6I1D86",
+			"FunctionName": "SC-144028967590-pp-issp6b-ActionsRequestAuthorizer-RSN6MJ6I1D86",
+			"Handler": "index.handler",
+			"LastModified": "2021-01-13T03:33:48.813+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "262cd896-6012-48c7-900f-76042e546c42",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-issp6b-ActionsRequestAuthorizer-9GOIY7ERMEQJ",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "K1qFNi4k+zSYBd6MuyAFovoOervXG0o6qO3RXSPHYSA=",
+			"CodeSize": 1055,
+			"Description": "Evaluates whether IAM policies contain *.* statements",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluatePolicyPermissions",
+			"FunctionName": "EvaluatePolicyPermissions",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.095+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "01b099cc-55e2-4f6e-bb49-65547cf667be",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "yUWWT3Wf6AszSKAj/t3R/F4G63xXlwMYConX209QSRs=",
+			"CodeSize": 18532444,
+			"Description": "Build CloudWatch Trend dashboard from CloudWatch metrics",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-PipelineDashboardTrendGe-PCWSOUXYDQYK",
+			"FunctionName": "StackSet-cnf-baseline-wpl-PipelineDashboardTrendGe-PCWSOUXYDQYK",
+			"Handler": "index.generateDashboardTrend",
+			"LastModified": "2021-02-03T03:21:58.312+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "5abce192-6701-4e2c-a16a-823069e13a1f",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-PipelineDashboardTrendGe-KC89VBUVQM2",
+			"Runtime": "nodejs12.x",
+			"Timeout": 60,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "R6rQCHfCmttmbx101lXR+yyrO45pDHTplFmF0M5m/bI=",
+			"CodeSize": 481379,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-ch3bwsrvyqeli-sourcebucket-1ggr5qeitmqw6"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-ch3bwsrvyqeli-ActionsPr-Presign-1TQZXA0820I25",
+			"FunctionName": "SC-144028967590-pp-ch3bwsrvyqeli-ActionsPr-Presign-1TQZXA0820I25",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T05:43:59.923+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "96fb7d1f-7dd2-4a51-98df-4cd9d5374a0d",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-ch3bwsrvyqeli-Actio-PresignRole-16P4T25MAAMM",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "yF86OY/2lHC/fwx7QEbwP2sceYHGwxZhv74sTyW+qws=",
+			"CodeSize": 150570,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-ch3bwsrvyqeli-Acti-ActionsProxy-1S3ZE8W7F7IEG",
+			"FunctionName": "SC-144028967590-pp-ch3bwsrvyqeli-Acti-ActionsProxy-1S3ZE8W7F7IEG",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T05:44:00.022+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "31045a66-5c4e-48e9-9b25-805e4aa51137",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-ch3bwsrvyqeli-ActionsProxyRole-141M2VF0HFMI3",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "AVFPTUyysjzI1O+Bf6H+PBe7B22TO4pvNXYFEdaCgXY=",
+			"CodeSize": 7313,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-ServiceHealthAlarmGenera-SL8KHXCLMF7S",
+			"FunctionName": "StackSet-cnf-baseline-wpl-ServiceHealthAlarmGenera-SL8KHXCLMF7S",
+			"Handler": "index.handler",
+			"LastModified": "2021-02-03T03:22:03.835+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "bea26e32-8389-48f4-acc2-37652c808ad9",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-ServiceHealthAlarmGenera-QVYOXO34IBAB",
+			"Runtime": "nodejs12.x",
+			"Timeout": 300,
+			"TracingConfig": {
+				"Mode": "Active"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "UzE4yx6EcugFrv7WSBg5RQAFBUS+oCoFxx4X/Rt24js=",
+			"CodeSize": 147098,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-2dkiqp6esnzvq-Acti-ActionsProxy-17J6G8G13P97O",
+			"FunctionName": "SC-144028967590-pp-2dkiqp6esnzvq-Acti-ActionsProxy-17J6G8G13P97O",
+			"Handler": "index.handler",
+			"LastModified": "2020-08-07T06:38:02.529+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "e354bd86-445a-4817-8de9-1faaa1bc18ce",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-2dkiqp6esnzvq-ActionsProxyRole-RJBTKZRXM1BN",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "J28waR8OzdrLyms6iB7ioZ4q7bcbpIXE8fRRgG5bakI=",
+			"CodeSize": 13054,
+			"Description": "Create CloudWatch mtbf metric from cloudwatch alarm events",
+			"Environment": {
+				"Variables": {
+					"ALARM_NAME_BLACKLIST_PATTERN": "(-AlarmHigh|-AlarmLow|-ProvisionedCapacityHigh|-ProvisionedCapacityLow)-(\\{){0,1}[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}(\\}){0,1}"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wrk-int-MTBFEventHandler-1JL3ADODNTJW9",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wrk-int-MTBFEventHandler-1JL3ADODNTJW9",
+			"Handler": "mtbf.handler",
+			"LastModified": "2021-02-03T03:22:21.777+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "22a34a4c-cc73-4bb3-84cb-047cf3c656b6",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-wrk-MTBFEventHandlerRole-1RWNEG4WI7X3J",
+			"Runtime": "nodejs12.x",
+			"Timeout": 3,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "w8E/x3vcHV6Ew3AloGblvF30GvvMCsaXAQLnKOvaklg=",
+			"CodeSize": 682,
+			"Description": "Evaluates whether VPC default security groups restrict all traffic",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateVpcDefaultSecurityGroups",
+			"FunctionName": "EvaluateVpcDefaultSecurityGroups",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.426+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "1709c254-5ace-429d-a252-1bc4c1ea25e9",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "8lo+69+1J+4xFxtqLPojnautEpiWfmvddGOt9/Ipx5o=",
+			"CodeSize": 1161877,
+			"Description": "Invoke a function during stack creation.",
+			"Environment": {
+				"Variables": {
+					"AMQ_HOSTS": "{\"amq-1.int.prd.woodside\" : 61614, \"amq-2.int.prd.woodside\" : 61614}",
+					"AMQ_TOPIC": "/topic/VirtualTopic.iAuditorInspectionReport",
+					"AUTH_TOKEN_API": "https://login.microsoftonline.com/a3299bba-ade6-4965-b011-bada8d1d9558/oauth2/token",
+					"AUTH_TOKEN_RESOURCE": "https://eap.api.woodside/inspection/v1/api",
+					"AZURE_APP_NAME_SECRET": "Integration-iAuditorPublisher-AzureApp",
+					"Environment": "prd",
+					"HTTP_PROXY": "http://proxy-ap-southeast-2.ops.prd.woodside:8080",
+					"INSPECTION_API": "https://eap.api.woodside/inspection/v1/api/inspections",
+					"MULESOFT_PUBLISHER_APP_NAME_SECRET": "Integration-iAuditorPublisher-MulesoftApp",
+					"SNS_TOPIC_ARN": "arn:aws:sns:ap-southeast-2:144028967590:iauditor-publisher-prd-topic"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:iauditor-publisher-prd-cnf-function",
+			"FunctionName": "iauditor-publisher-prd-cnf-function",
+			"Handler": "code/handler.lambda_handler",
+			"LastModified": "2021-05-17T02:56:15.863+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "e9e010dc-03e8-4939-9f81-2d26708388c5",
+			"Role": "arn:aws:iam::144028967590:role/iAuditor-publisher-role",
+			"Runtime": "python3.8",
+			"Timeout": 900,
+			"TracingConfig": {
+				"Mode": "Active"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [
+					"sg-08878a13e5526916f"
+				],
+				"SubnetIds": [
+					"subnet-017205a7034976f8c",
+					"subnet-095fd04ae866b4a33"
+				],
+				"VpcId": "vpc-0864973c4f2cd77f2"
+			}
+		},
+		{
+			"CodeSha256": "jooooiiBYSO5+LzQ4d8ivAb+A/H1RFKmyeOcw6tyXOg=",
+			"CodeSize": 829,
+			"Description": "Evaluates whether users have MFA enabled.",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateUserMfaUsage",
+			"FunctionName": "EvaluateUserMfaUsage",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.338+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "7be7c32b-5657-499b-ac46-8703376e08a1",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "UdJd9IpSnf8/8sfzJV9Hrk2zXpvpxgIfApp0m/NUCJU=",
+			"CodeSize": 481379,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-zbmz2srhmluxw-sourcebucket-1a5khc4uwcl7x"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-zbmz2srhmluxw-ActionsPr-Presign-Z37IXUXXMFTJ",
+			"FunctionName": "SC-144028967590-pp-zbmz2srhmluxw-ActionsPr-Presign-Z37IXUXXMFTJ",
+			"Handler": "index.handler",
+			"LastModified": "2021-01-13T03:25:47.110+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "69fec70f-1c27-40c2-8c82-c27dc1252b3a",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-zbmz2srhmluxw-Actio-PresignRole-TCS9IWBUHJ5J",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "UdJd9IpSnf8/8sfzJV9Hrk2zXpvpxgIfApp0m/NUCJU=",
+			"CodeSize": 481379,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-issp6bvsjaweq-sourcebucket-z6sjcujuj2ak"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-issp6bvsjaweq-ActionsPr-Presign-1M8DWL2J72TIY",
+			"FunctionName": "SC-144028967590-pp-issp6bvsjaweq-ActionsPr-Presign-1M8DWL2J72TIY",
+			"Handler": "index.handler",
+			"LastModified": "2021-01-13T03:33:48.775+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "968fb734-eb31-48c9-a9af-2b34b0706c6f",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-issp6bvsjaweq-Actio-PresignRole-13QFUCJC1DH9L",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "E7j6saDEPCQ2LWG7lxxUNO/R0sxQPQIqlmi7XKBIhzg=",
+			"CodeSize": 883,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-custom-config-rules-EC2No-EC2NoPublicIPLambda-2HFL15KONWBP",
+			"FunctionName": "cops-custom-config-rules-EC2No-EC2NoPublicIPLambda-2HFL15KONWBP",
+			"Handler": "ec2-no-public-ip.lambda_handler",
+			"LastModified": "2020-01-22T02:13:36.119+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "cf6010b2-15a9-41b7-b324-3974f901155b",
+			"Role": "arn:aws:iam::144028967590:role/cops-ec2-no-public-ip-rule-role",
+			"Runtime": "python3.7",
+			"Timeout": 900,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "DYDwMbIPqNLFs5kX4LLziX0vFH8dRaOm/G792DjMvLI=",
+			"CodeSize": 150569,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-zbmz2srhmluxw-Acti-ActionsProxy-1U5Z9LWO7DGZS",
+			"FunctionName": "SC-144028967590-pp-zbmz2srhmluxw-Acti-ActionsProxy-1U5Z9LWO7DGZS",
+			"Handler": "index.handler",
+			"LastModified": "2021-01-13T03:25:47.225+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "a02fe6f6-cd96-4692-bd6f-201ec4d1e3ba",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-zbmz2srhmluxw-ActionsProxyRole-1I8GXITZD7JRL",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "fd5tIdi50A+PRnvjYUE9HztQ2du494qkDMmmgoTSz0c=",
+			"CodeSize": 3432,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-awsconfig-to-securityhub",
+			"FunctionName": "cops-awsconfig-to-securityhub",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-06-23T11:37:10.194+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "c0998fe3-e561-4b85-9ca8-64cbf7a68bba",
+			"Role": "arn:aws:iam::144028967590:role/config-sechub-lambda-role",
+			"Runtime": "python3.7",
+			"Timeout": 300,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "X9Q7iJFqFOhZEDqlX/+Ya9XWFtzueMcQFSCRHtKxCwY=",
+			"CodeSize": 390,
+			"Description": "Add expiry to Cloudwatch logs",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-cloudwatchlogs-manager",
+			"FunctionName": "cops-cloudwatchlogs-manager",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2019-10-08T07:53:14.121+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "f53575fc-4ffe-4fed-8647-068c3f912708",
+			"Role": "arn:aws:iam::144028967590:role/cops-cloudwatchlogs-manager-ap-southeast-2",
+			"Runtime": "python3.6",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "RTumwPv2XOclNE8NNk2vYTSDu++ltkBNJrPJMEyh/LE=",
+			"CodeSize": 1086,
+			"Description": "Evaluates whether CloudTrail has appropriate security properties",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateCloudTrail",
+			"FunctionName": "EvaluateCloudTrail",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.411+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "c4fbc8ed-0d3d-4829-aa5f-d4ba3e468763",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "J28waR8OzdrLyms6iB7ioZ4q7bcbpIXE8fRRgG5bakI=",
+			"CodeSize": 13054,
+			"Description": "Create CloudWatch mttf metric from cloudwatch alarm events",
+			"Environment": {
+				"Variables": {
+					"ALARM_NAME_BLACKLIST_PATTERN": "(-AlarmHigh|-AlarmLow|-ProvisionedCapacityHigh|-ProvisionedCapacityLow)-(\\{){0,1}[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}(\\}){0,1}"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wrk-int-MTTFEventHandler-18XP5J6WDJR2E",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wrk-int-MTTFEventHandler-18XP5J6WDJR2E",
+			"Handler": "mttf.handler",
+			"LastModified": "2021-02-03T03:22:20.158+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "355b1771-9808-47bb-983f-221e72678de2",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-wrk-MTTFEventHandlerRole-1BFM7AQDF6F96",
+			"Runtime": "nodejs12.x",
+			"Timeout": 3,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "fViq1vJKi/k8svRKDTm6bnCFfKId1Z+SfATRRP6TjnE=",
+			"CodeSize": 2439,
+			"DeadLetterConfig": {
+				"TargetArn": "arn:aws:sqs:ap-southeast-2:144028967590:cops-splunk-cloudwatchlogs-processor-dlq"
+			},
+			"Description": "Stream events from AWS CloudWatch Logs to Splunk HTTP event collector",
+			"Environment": {
+				"Variables": {
+					"SPLUNK_HEC_TOKEN": "BABBA953-B1AB-441C-9851-68C6006E57D9",
+					"SPLUNK_HEC_URL": "https://http-inputs-woodside.splunkcloud.com:443/services/collector/event?channel=5db8a619-259e-4223-8535-81d4620721a5"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-splunk-cloudwatchlogs-processor",
+			"FunctionName": "cops-splunk-cloudwatchlogs-processor",
+			"Handler": "index.handler",
+			"LastModified": "2020-09-14T06:36:13.455+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "66bdda1b-33fe-4662-bc74-870ab5774663",
+			"Role": "arn:aws:iam::144028967590:role/cops-splunk-cloudwatchlogs-processor-ProcessorRole-X6GUG0R74NQA",
+			"Runtime": "nodejs10.x",
+			"Timeout": 120,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "CRyPo/hxZlxdmsDbvlKRcaSotaVbNx10XGGXMhn2/ec=",
+			"CodeSize": 691,
+			"Description": "Evaluates whether VPC Flow Logs are enabled for the VPCs",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateVpcFlowLogs",
+			"FunctionName": "EvaluateVpcFlowLogs",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.794+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "a3ff059c-9e40-4c38-a7ca-e3ee2363cc61",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "euHRHGmT1+zHvFh+wC1iaCDsMbwaJ1XJpGIDjXEG6uU=",
+			"CodeSize": 399343,
+			"Description": "Lambda to publish event for triggering Custom Resource deployment",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cnf-baseline-publish-custom-resource-create-event",
+			"FunctionName": "cnf-baseline-publish-custom-resource-create-event",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T06:59:16.619+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "c430f4d8-5d11-42c4-b72b-290381bcf0b3",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-PublishCustomResourceEve-A720GUGKR37F",
+			"Runtime": "nodejs12.x",
+			"Timeout": 3,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "B/1jbqJWeJfsY1oMjcJyXysAxX4ijZA6kGXRLAmtLbg=",
+			"CodeSize": 1146,
+			"Description": "Deletes unused passwords and disables unused access keys",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:DisableUnusedCredentials",
+			"FunctionName": "DisableUnusedCredentials",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.716+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "76474f7c-c16d-49f2-a75b-0f47eea19bf8",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-RoleForDisableUnusedCrede-WHMCOYT7XY1",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "1rXnRRuQYj5wobQxE/AJN92BY+O+qzPDDSLGj1rRAzU=",
+			"CodeSize": 14293,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"TABLE_NAME": "StackSet-cnf-baseline-wpl-wrk-int-3187eb98-c408-4828-8ef4-9e48a-StateOfDevOpsDashboard-Y11MS7PTAU8M-EventStoreDynamoTable-F7P1UR7ADTHJ"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-StateOfDevOpsTrendGenera-57KZ37XX715D",
+			"FunctionName": "StackSet-cnf-baseline-wpl-StateOfDevOpsTrendGenera-57KZ37XX715D",
+			"Handler": "index.handler",
+			"LastModified": "2021-02-03T03:22:09.123+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "7df5ec4f-53cd-4da5-acf0-f2c15c6b286f",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-StateOfDevOpsTrendGenera-81PAHWYJ3H1K",
+			"Runtime": "nodejs12.x",
+			"Timeout": 60,
+			"TracingConfig": {
+				"Mode": "Active"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "dfAWccP8WzSeUkkwO0eSeF9TM2QQTtbRBeolbzif9z8=",
+			"CodeSize": 3122495,
+			"Description": "Invoke a function during stack creation.",
+			"Environment": {
+				"Variables": {
+					"AUTH_TOKEN_API": "https://login.microsoftonline.com/a3299bba-ade6-4965-b011-bada8d1d9558/oauth2/token",
+					"AZURE_APP_NAME_SECRET": "Integration-iAuditorSubscriber-AzureApp",
+					"Environment": "prd",
+					"HTTP_PROXY": "http://proxy-ap-southeast-2.ops.prd.woodside:8080",
+					"MULESOFT_BASE_URL": "https://eap.api.woodside",
+					"MULESOFT_SUBSCRIBER_APP_NAME_SECRET": "Integration-iAuditorSubscriber-MulesoftApp",
+					"SNS_TOPIC_ARN": "arn:aws:sns:ap-southeast-2:144028967590:iauditor-subscriber-prd-topic"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:iauditor-subscriber-prd-cnf-function",
+			"FunctionName": "iauditor-subscriber-prd-cnf-function",
+			"Handler": "code/handler.lambda_handler",
+			"LastModified": "2021-05-12T07:19:22.278+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "7d9c6528-aba7-482a-b401-301fcb39bda5",
+			"Role": "arn:aws:iam::144028967590:role/iAuditor-subscriber-role",
+			"Runtime": "python3.8",
+			"Timeout": 300,
+			"TracingConfig": {
+				"Mode": "Active"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [
+					"sg-08878a13e5526916f"
+				],
+				"SubnetIds": [
+					"subnet-017205a7034976f8c",
+					"subnet-095fd04ae866b4a33",
+					"subnet-0cbc2f137750e8008"
+				],
+				"VpcId": "vpc-0864973c4f2cd77f2"
+			}
+		},
+		{
+			"CodeSha256": "gwJZkp06E+ovmmpHhoIzurnsJFtsTbf2rtcepWal8EQ=",
+			"CodeSize": 36432,
+			"Description": "Tag Enforcement auto Ec2 naming Lambda function for run instance(s) events",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-tag-enforcement-auto-ec2-naming-autoName",
+			"FunctionName": "cops-tag-enforcement-auto-ec2-naming-autoName",
+			"Handler": "handler.runInstancesAutoEc2NamingHandler",
+			"LastModified": "2021-06-09T03:27:25.791+0000",
+			"MemorySize": 256,
+			"PackageType": "Zip",
+			"RevisionId": "b9b025f7-a97a-47c7-bb9e-0eb9c92a10fc",
+			"Role": "arn:aws:iam::144028967590:role/AutoEc2Naming",
+			"Runtime": "python3.7",
+			"Timeout": 480,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "AnZPho5kowUAj4BRRYnGGalO7CAEoepqZzAyV3bbKk4=",
+			"CodeSize": 1031,
+			"Description": "Evaluates whether CloudTrail has appropriate security properties",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateCloudTrailBucket",
+			"FunctionName": "EvaluateCloudTrailBucket",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:29.530+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "b24f3343-d8d5-48de-8582-40da57956b72",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 10,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "JuIH/gJY3ctWS5NnWf9Os9demhBMLeoVw1Kb13wRFbw=",
+			"CodeSize": 739778,
+			"Description": "Export cloudwatch metrics and push them into s3",
+			"Environment": {
+				"Variables": {
+					"EXPORTBUCKETNAME": "state-of-devops-cross-account-metrics-export-prod",
+					"METRICSEXPORTPRIOD": "WEEKLY",
+					"METRICSFILTER": "[\n  { \"metricName\": \"MTTF\", \"nameSpace\": \"Operations\" },\n  { \"metricName\": \"MTBF\", \"nameSpace\": \"Operations\" },\n  { \"metricName\": \"MTTR\", \"nameSpace\": \"Operations\" },\n  { \"metricName\": \"SuccessCount\", \"nameSpace\": \"Pipeline\" },\n  { \"metricName\": \"SuccessLeadTime\", \"nameSpace\": \"Pipeline\" },\n  { \"metricName\": \"DeliveryLeadTime\", \"nameSpace\": \"Pipeline\" },\n  { \"metricName\": \"SuccessCycleTime\", \"nameSpace\": \"Pipeline\" },\n  { \"metricName\": \"product-health-metric\", \"nameSpace\":\"Health-Monitoring\" }\n]",
+					"SSMPARAMETERNAME": "/metrics/previous-export-end-date"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wrk-int-S3ExportHandler-1QUOH95PIBOD7",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wrk-int-S3ExportHandler-1QUOH95PIBOD7",
+			"Handler": "src/s3Export.handler",
+			"LastModified": "2021-02-03T03:22:19.657+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "3fd1e1d5-7a12-4a87-8938-77b260eb65bb",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-wrk-S3ExportHandlerRole-12LM8FK1D6LMA",
+			"Runtime": "nodejs12.x",
+			"Timeout": 900,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "B9ty3Qy/2521L6Ik1IlZTjP8PoHywX+U/+M/7k/jMps=",
+			"CodeSize": 1416,
+			"Description": "Returns the CloudWatch Log that is used by CloudTrail",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:GetCloudTrailCloudWatchLog",
+			"FunctionName": "GetCloudTrailCloudWatchLog",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:26.586+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "74d3ffd1-947b-4f2b-8597-c5ca7eda5df4",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 5,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "J28waR8OzdrLyms6iB7ioZ4q7bcbpIXE8fRRgG5bakI=",
+			"CodeSize": 13054,
+			"Description": "Build OPS Trend dashboard from CloudWatch metrics",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wr-OpsDashboardGenerator-56JNIPYYMVBS",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wr-OpsDashboardGenerator-56JNIPYYMVBS",
+			"Handler": "dashboardHandler.generateDashboardTrend",
+			"LastModified": "2021-02-03T03:21:58.418+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "25a6b49c-7326-4da1-9a95-57b0cc031e4d",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-OpsDashboardGeneratorRol-1CMWY7QSJQK4A",
+			"Runtime": "nodejs12.x",
+			"Timeout": 60,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "v3dfSVEUxegPJTy9eaVSRzbjnmCYW9zxCJS/cqVOgKo=",
+			"CodeSize": 8552,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"TABLE_NAME": "StackSet-cnf-baseline-wpl-wrk-int-3187eb98-c408-4828-8ef4-9e48a-StateOfDevOpsDashboard-Y11MS7PTAU8M-EventStoreDynamoTable-F7P1UR7ADTHJ"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wrk-int-318-DynamoStream-1SLBSESOJO03D",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wrk-int-318-DynamoStream-1SLBSESOJO03D",
+			"Handler": "index.handler",
+			"LastModified": "2021-02-03T03:21:31.050+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "787db56d-ae3d-4db2-8db1-81f71250013a",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-wrk-int-DynamoStreamRole-QGHM6YBQS3FB",
+			"Runtime": "nodejs12.x",
+			"Timeout": 60,
+			"TracingConfig": {
+				"Mode": "Active"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "lR1XJOBdV2hrQjAOsZyKxBF/nK+qd8XZc6ydjS6NSRU=",
+			"CodeSize": 489183,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-2dkiqp6esnzvq-sourcebucket-fhpuleukabsc"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-2dkiqp6esnzvq-ActionsPr-Presign-VJKDONMNMKEY",
+			"FunctionName": "SC-144028967590-pp-2dkiqp6esnzvq-ActionsPr-Presign-VJKDONMNMKEY",
+			"Handler": "index.handler",
+			"LastModified": "2020-08-07T06:38:01.231+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "996232cf-dac0-4066-a9f8-6a0f05873927",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-2dkiqp6esnzvq-Actio-PresignRole-44BTXZUKARVC",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "4r6Y7TIcNx2ZE3IK1ejIjB0NnrAFIqaRnT/Lm3rE1Bc=",
+			"CodeSize": 147098,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-bb4hgc7skqa3q-Acti-ActionsProxy-1OP0X9HRZ6CEL",
+			"FunctionName": "SC-144028967590-pp-bb4hgc7skqa3q-Acti-ActionsProxy-1OP0X9HRZ6CEL",
+			"Handler": "index.handler",
+			"LastModified": "2020-08-25T02:10:05.215+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "b76c6c17-2b27-4740-bd5f-053bff38cb29",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-bb4hgc7skqa3q-ActionsProxyRole-52IJI60H9611",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "83LMzvskJyvBECUGk+4+DnRrLxJsbtEyNyZIH3bZCDo=",
+			"CodeSize": 889000,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"QUEUE_URL": "https://sqs.ap-southeast-2.amazonaws.com/278364088108/cnf-compliance-FIFOSQSQueue-1II3FUZ6UCLAJ.fifo"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wrk-in-RuleEvalPublisher-EC6QS07P4OP5",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wrk-in-RuleEvalPublisher-EC6QS07P4OP5",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T06:59:18.808+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "649231e0-5a26-4890-adfb-cd4aba26d6b1",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-wr-RuleEvalPublisherRole-1LXHQUR0HSPQC",
+			"Runtime": "nodejs14.x",
+			"Timeout": 120,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "HtqHDfwLeF+IOkZbC25RKeHkKEFeQOkonmdeogJwQKQ=",
+			"CodeSize": 481379,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"BUCKET": "sc-144028967590-pp-qhuof3ec44s2a-sourcebucket-16bk8ubt6chaj"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-qhuof3ec44s2a-ActionsPr-Presign-HIJuLIUQoTFP",
+			"FunctionName": "SC-144028967590-pp-qhuof3ec44s2a-ActionsPr-Presign-HIJuLIUQoTFP",
+			"Handler": "index.handler",
+			"LastModified": "2021-06-22T02:17:31.496+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "9f27a7a0-65e0-486a-9a5f-6c597ac103fa",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-qhuof3ec44s2a-Actio-PresignRole-1WUC78D15NZZ6",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "hpFLeycnuMvvkGT4PFIa68gYhmEPK8LurFYrg1zEto8=",
+			"CodeSize": 98831,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "WEL-Mulesoft/SFTP-OT"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-2dkiqp-ActionsRequestAuthorizer-QZ762X2S1NBS",
+			"FunctionName": "SC-144028967590-pp-2dkiqp-ActionsRequestAuthorizer-QZ762X2S1NBS",
+			"Handler": "index.handler",
+			"LastModified": "2020-08-07T06:38:01.514+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "4488fa77-94ce-4569-9ac6-82250beb814e",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-2dkiqp-ActionsRequestAuthorizer-2O46WZZF8817",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "5PxkuCrAbWalArYWSxf4PtiPu1RCEV33zOfQ2ew7cws=",
+			"CodeSize": 6613,
+			"Description": "Secrets Manager Key Rotation Lambda",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-signing-key-ce99-StaticSiteSigningKeySecr-SB0MUCLYPLCC",
+			"FunctionName": "StackSet-signing-key-ce99-StaticSiteSigningKeySecr-SB0MUCLYPLCC",
+			"Handler": "dist/signingKeyRotation.handler",
+			"LastModified": "2020-08-23T05:04:35.504+0000",
+			"MemorySize": 512,
+			"PackageType": "Zip",
+			"RevisionId": "5a1a6d5d-cca7-4fc7-9ae7-c79fd1c32e59",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-signing-key-ce99-StaticSiteSigningKeyRota-I1M0I10F0V8Y",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "Active"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "Ub0XkctBQk8flp2sZUAV2QAIYYCpVnZlbmPelD6wswY=",
+			"CodeSize": 8296,
+			"Description": "Capturing all cloudwatch alarm State changes in dynamo",
+			"Environment": {
+				"Variables": {
+					"TABLE_NAME": "StackSet-cnf-baseline-wpl-wrk-int-3187eb98-c408-4828-8ef4-9e48a-StateOfDevOpsDashboard-Y11MS7PTAU8M-EventStoreDynamoTable-F7P1UR7ADTHJ"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-wrk-i-StateChangeHandler-V4EZQ84ELWPA",
+			"FunctionName": "StackSet-cnf-baseline-wpl-wrk-i-StateChangeHandler-V4EZQ84ELWPA",
+			"Handler": "index.handler",
+			"LastModified": "2021-02-03T03:22:38.609+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "6c66811c-229c-4292-aea7-e97e187908d1",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-w-StateChangeHandlerRole-1OOIY7NFFJS5E",
+			"Runtime": "nodejs12.x",
+			"Timeout": 60,
+			"TracingConfig": {
+				"Mode": "Active"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "DYDwMbIPqNLFs5kX4LLziX0vFH8dRaOm/G792DjMvLI=",
+			"CodeSize": 150569,
+			"Description": "",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-issp6bvsjaweq-Acti-ActionsProxy-1IHHJMVPKOWU6",
+			"FunctionName": "SC-144028967590-pp-issp6bvsjaweq-Acti-ActionsProxy-1IHHJMVPKOWU6",
+			"Handler": "index.handler",
+			"LastModified": "2021-01-13T03:33:48.806+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "1fca6373-8d8d-477c-bc8d-a21c1ae14658",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-issp6bvsjaweq-ActionsProxyRole-PEYFS5PNC6GW",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "gzgzOyV0likzGmBghjW/yS8J3NCbnTcKIGn0a/m9PiE=",
+			"CodeSize": 101513,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "WEL-Mulesoft/APIParentPOMMule4"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-zbmz2s-ActionsRequestAuthorizer-YF7EQ36XPPQI",
+			"FunctionName": "SC-144028967590-pp-zbmz2s-ActionsRequestAuthorizer-YF7EQ36XPPQI",
+			"Handler": "index.handler",
+			"LastModified": "2021-01-13T03:25:47.049+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "939b7362-cdc3-402d-8968-d27a88856e71",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-zbmz2s-ActionsRequestAuthorizer-KGHSD5VMIVKV",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "xOTedov4Pl+PhBq4bR2HD16pD/sLy+/UQ5kA1yY6XJ8=",
+			"CodeSize": 4327,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"COST_CODE_SSM": "/cops/default/account-costcode",
+					"DEFAULT_COST_CODE_TAG": "CostCode",
+					"OVERWRITE_COSTCODE_FLAG": "/cops/default/overwrite-costcode"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:cops-custom-config-rules-CostCodeComplianceCheckL-MXMERE26AQ3H",
+			"FunctionName": "cops-custom-config-rules-CostCodeComplianceCheckL-MXMERE26AQ3H",
+			"Handler": "default-tagging-rule.lambda_handler",
+			"LastModified": "2019-06-21T06:58:51.294+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "568deadc-629b-4b2e-b476-55836b49a388",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-taggi-LambdaExecutionRole-D9IMNWH4XU5A",
+			"Runtime": "python3.6",
+			"Timeout": 900,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "1DZpxP/Q1DKNyGjio0nWgFF61UijSzgE/ZMnJb/+5Ug=",
+			"CodeSize": 495,
+			"Description": "Formats a given CloudWatch Event to be published to an SNS topic",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:FormatCloudWatchEvent",
+			"FunctionName": "FormatCloudWatchEvent",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:26.760+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "cd79dac1-4dce-4067-87d0-4cef392d6a78",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-RoleForCloudWatchEvents-120SFB9UWERVI",
+			"Runtime": "python3.8",
+			"Timeout": 5,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "oNedbwIugITXlsTZ8y4Oh5EiGxHj9hx1eH7QvUANEpg=",
+			"CodeSize": 98831,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "WEL-Mulesoft/Exp-IAM"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-bb4hgc-ActionsRequestAuthorizer-QV9TVCLKUTDC",
+			"FunctionName": "SC-144028967590-pp-bb4hgc-ActionsRequestAuthorizer-QV9TVCLKUTDC",
+			"Handler": "index.handler",
+			"LastModified": "2020-08-25T02:10:04.367+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "cc48e665-822d-49cc-a4ff-35a2ff80f01f",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-bb4hgc-ActionsRequestAuthorizer-RNQNE026FQSO",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "/mZChGplrmCrT3p53ibMvvI2uQ1AgsQ1f4Z2TC/mATk=",
+			"CodeSize": 1747,
+			"Description": "Evaluates preconditions for CIS benchmarking",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:EvaluateCisBenchmarkingPreconditions",
+			"FunctionName": "EvaluateCisBenchmarkingPreconditions",
+			"Handler": "index.lambda_handler",
+			"LastModified": "2021-01-21T01:09:26.566+0000",
+			"MemorySize": 1024,
+			"PackageType": "Zip",
+			"RevisionId": "9265196b-cdc0-4724-a1e8-0a83b50abe8b",
+			"Role": "arn:aws:iam::144028967590:role/cops-custom-config-rules-MasterConfigRole-194X2KEJTBEWU",
+			"Runtime": "python3.8",
+			"Timeout": 5,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST",
+			"VpcConfig": {
+				"SecurityGroupIds": [],
+				"SubnetIds": [],
+				"VpcId": ""
+			}
+		},
+		{
+			"CodeSha256": "yUWWT3Wf6AszSKAj/t3R/F4G63xXlwMYConX209QSRs=",
+			"CodeSize": 18532444,
+			"Description": "Create CloudWatch metrics from CodePipeline events",
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:StackSet-cnf-baseline-wpl-PipelineDashboardEventHa-NKDDTDPCKZ47",
+			"FunctionName": "StackSet-cnf-baseline-wpl-PipelineDashboardEventHa-NKDDTDPCKZ47",
+			"Handler": "index.handlePipelineEvent",
+			"LastModified": "2021-02-03T03:21:59.898+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "a7493c36-b67e-453d-bcb4-685f9cc38f97",
+			"Role": "arn:aws:iam::144028967590:role/StackSet-cnf-baseline-wpl-PipelineDashboardEventHa-1M814VKO5H15U",
+			"Runtime": "nodejs12.x",
+			"Timeout": 3,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		},
+		{
+			"CodeSha256": "PvY6U+7HDyBNqthgz3y2p8+SwfCHTbXCTCRxPMrbpZI=",
+			"CodeSize": 101513,
+			"Description": "",
+			"Environment": {
+				"Variables": {
+					"GITHUB_REPOSITORY": "WEL-Mulesoft/iAuditorSubscriber"
+				}
+			},
+			"FunctionArn": "arn:aws:lambda:ap-southeast-2:144028967590:function:SC-144028967590-pp-ofc3fc-ActionsRequestAuthorizer-SOWQLXXJEUZ3",
+			"FunctionName": "SC-144028967590-pp-ofc3fc-ActionsRequestAuthorizer-SOWQLXXJEUZ3",
+			"Handler": "index.handler",
+			"LastModified": "2021-05-12T06:51:35.999+0000",
+			"MemorySize": 128,
+			"PackageType": "Zip",
+			"RevisionId": "94d38b20-9546-49d2-a116-cbb9a31b038e",
+			"Role": "arn:aws:iam::144028967590:role/SC-144028967590-pp-ofc3fc-ActionsRequestAuthorizer-T3JI5RYDV5ME",
+			"Runtime": "nodejs12.x",
+			"Timeout": 30,
+			"TracingConfig": {
+				"Mode": "PassThrough"
+			},
+			"Version": "$LATEST"
+		}
+	]
+}
