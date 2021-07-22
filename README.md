@@ -21,7 +21,8 @@ sample jq practices
 
 4. For every Lambda function that has a Runtime of (exactly)python3.8, print out its FunctionName
 ```shell
-jq '.Functions[] | select(.Runtime == "python3.8") | .FunctionName' list-functions.json 
+jq '.Functions[] | select(.Runtime == "python3.8") | .FunctionName' list-functions.json
+jq '.Functions[] | select(.Runtime == "python3.8").FunctionName' list-functions.json 
 ```
 
 5. For every Lambda function that has a Runtime that starts with python (even future versions, don't hardcode a list), 
@@ -44,4 +45,7 @@ RUNTIME=python3.8 && jq --arg r "$RUNTIME" '.Functions[] | select(.Runtime == $r
 ```shell
 jq -s '.[] | .Functions[] | select(.Runtime | contains("python")) | .FunctionName' list-functions*.json
 ```
-   
+
+## todo
+* options: `-r`, `-n`, `-e`
+* filters: `//`, `empty`, `map`, `@csv`, `@tsv`, `to_entries`, `from_entries`, `sort_by`, `fromdateiso8601`, `match`
