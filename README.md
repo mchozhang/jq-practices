@@ -39,7 +39,9 @@ RUNTIME=python3.8 && jq --arg r "$RUNTIME" '.Functions[] | select(.Runtime == $r
 ```
 
 7. Solve Q5, but rather than operate on a single file, operate on every file as a single stream. 
-   Hint, use the `jq` parameter `--slurp`. 
-   You want something like:
-   `cat list-functions.json | jq -rs 'FILTER'`
+   Hint, use the `jq` parameter `--slurp`.  You want something like: `cat list-functions.json | jq -rs 'FILTER'`
+   
+```shell
+jq -s '.[] | .Functions[] | select(.Runtime | contains("python")) | .FunctionName' list-functions*.json
+```
    
